@@ -135,10 +135,12 @@ main .invitation {
     border-radius: 16px;
 
 }
-.invite-place span{
+
+.invite-place span {
     color: red;
 }
-.invite-place button{
+
+.invite-place button {
     font-size: 16px;
     color: #FFF;
     background-color: #F00;
@@ -146,3 +148,74 @@ main .invitation {
     padding: 14px 32px;
     border-radius: 8px;
 }
+
+
+/* section 3 */
+
+.best-offer {
+    background-color: #FFF;
+    height: 220px;
+    margin: 100px 10px;
+    display: flex;
+    gap: 70px;
+}
+
+.best-offer-info,
+.best-offer-pic,
+.best-offer-year {
+    width: 50%;
+}
+
+
+.best-offer-pic img {
+    height: 250px;
+    border: 18px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.best-offer-info h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.best-offer-info h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.best-offer-info p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.best-offer-year h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.best-offer-year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.best-offer-year img{
+    margin-bottom: 0px;
+}
+
+
+/* section 4 */
