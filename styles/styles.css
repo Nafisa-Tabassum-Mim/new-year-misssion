@@ -176,7 +176,8 @@ main .invitation {
     padding: 30px;
 }
 
-.best-offer-info h5 , .portfolio-topic h5 {
+.best-offer-info h5,
+.portfolio-topic h5 {
     color: #F00;
     font-family: Inter;
     font-size: 22px;
@@ -185,7 +186,9 @@ main .invitation {
     margin-bottom: 20px;
 }
 
-.best-offer-info h3 , .portfolio-topic h3{
+.best-offer-info h3,
+.portfolio-topic h3,
+.subscribe h3 {
     color: #070211;
     font-family: Merriweather;
     font-size: 42px;
@@ -193,7 +196,10 @@ main .invitation {
     margin-bottom: 5px;
 }
 
-.best-offer-info p , .sale-info-p , .portfolio-topic p{
+.best-offer-info p,
+.sale-info-p,
+.portfolio-topic p,
+.subscribe p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
@@ -246,54 +252,142 @@ main .invitation {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.sale-info span{
+
+.sale-info span {
     color: #F00;
 }
 
-.sale-info-p{
+.sale-info-p {
     margin-top: 5px;
     text-align: center;
 }
-.sale-info{
+
+.sale-info {
     padding: 0px 250px;
 }
 
-section .full-color{
+section .full-color {
     margin-top: 0px;
-    padding: 70px ;
+    padding: 70px;
     background-color: #F00;
     border-radius: 16px 0px 16px 16px;
     border: none;
 }
 
-.sale .image{
+.sale .image {
     margin-top: 50px;
     text-align: right;
     height: 433px;
 }
-.image-3{ 
+
+.image-3 {
     height: 300px;
- }
+}
 
- /* section 4 */
+/* section 5 */
 
- .portfolio{
+.portfolio {
     background-color: #FFF;
-    height: 600px;
+    height: 1100px;
     margin: 100px 10px;
     border-radius: 16px;
- }
+}
 
- .portfolio-info{
+.portfolio-info {
     display: flex;
     gap: 20px;
-    padding-bottom:  20px;
- }
- .portfolio-info img{
+    padding-bottom: 20px;
+}
+
+.portfolio-info img {
     height: 420px;
- }
- 
- .portfolio-topic p{
+}
+
+.portfolio-info img:hover {
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.portfolio-topic p {
     padding-right: 400px;
     margin-bottom: 30px;
- }
+}
+
+/* section 6 */
+
+.subscribe {
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 440px;
+    margin: 100px 10px;
+    border-radius: 16px;
+}
+
+.section-subscribe-info {
+    text-align: center;
+    padding: 60px 200px 0px;
+}
+
+.section-subscribe-info img {
+    height: 90px;
+}
+
+.section-subscribe-info input[type="email"] {
+    font-size: 20px;
+    padding-left: 25px;
+    width: 400px;
+    height: 48px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+
+}
+
+.section-subscribe-info input[type="button"] {
+    font-size: 20px;
+    color: #FFF;
+    width: 140px;
+    height: 48px;
+    margin-top: 20px;
+    border: none;
+    background-color: #F00;
+    border-radius: 0 50px 50px 0;
+    position: absolute;
+}
+
+
+/* footer  */
+
+footer {
+    background-color: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    height: 500px;
+}
+
+.website-info , .footer-extra-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-location {
+    padding: 70px 0px 10px 50px;
+}
+
+.website-num {
+    padding: 70px 90px 10px 0px;
+}
+
+.social-media-icon img {
+    margin-right: 25px;
+    padding: 50px 0;
+}
+
+.social-media-icon {
+    text-align: center;
+    height: 40px;
+}
+.footer-extra-info{
+    margin: 140px 50px;
+}
