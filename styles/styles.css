@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+header .banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 16px;
+
+}
+
+.banner {
+    color: #FFF;
+    font-family: Merriweather;
+    text-align: center;
+
+
+}
+
+.banner-greeting {
+    padding-top: 200px;
+    margin-bottom: 2px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 2px;
+}
+
+.extra-banner-info {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.extra-banner-info h2 {
+    color: red;
+    font-size: 80px;
+}
+
+.extra-banner-info p {
+    font-size: 21px;
+    color: red;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.extra-banner-info h3 {
+    color: #070211;
+    font-size: 44px;
+    margin: 10px;
+}
+
+.extra-banner img {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    
+}
+
+.extra-banner {
+    padding: 70px;
+}
+
