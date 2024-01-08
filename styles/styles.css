@@ -176,7 +176,7 @@ main .invitation {
     padding: 30px;
 }
 
-.best-offer-info h5 {
+.best-offer-info h5 , .portfolio-topic h5 {
     color: #F00;
     font-family: Inter;
     font-size: 22px;
@@ -185,7 +185,7 @@ main .invitation {
     margin-bottom: 20px;
 }
 
-.best-offer-info h3 {
+.best-offer-info h3 , .portfolio-topic h3{
     color: #070211;
     font-family: Merriweather;
     font-size: 42px;
@@ -193,7 +193,7 @@ main .invitation {
     margin-bottom: 5px;
 }
 
-.best-offer-info p , .sale-info-p{
+.best-offer-info p , .sale-info-p , .portfolio-topic p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
@@ -273,4 +273,27 @@ section .full-color{
 }
 .image-3{ 
     height: 300px;
+ }
+
+ /* section 4 */
+
+ .portfolio{
+    background-color: #FFF;
+    height: 600px;
+    margin: 100px 10px;
+    border-radius: 16px;
+ }
+
+ .portfolio-info{
+    display: flex;
+    gap: 20px;
+    padding-bottom:  20px;
+ }
+ .portfolio-info img{
+    height: 420px;
+ }
+ 
+ .portfolio-topic p{
+    padding-right: 400px;
+    margin-bottom: 30px;
  }
