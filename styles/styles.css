@@ -73,6 +73,7 @@ header .banner {
 }
 
 /* main body  */
+/* section 1 */
 
 main .invitation {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
@@ -112,9 +113,36 @@ main .invitation {
     color: rgba(255, 255, 255, 0.80);
     font-size: 14px;
 }
-.invitation-info-1>button{
+
+.invitation-info-1>button {
     margin: 25px 30px;
     color: #FFF;
     background-color: #070211;
     border: none;
+}
+
+/* section 2 */
+
+.invite-place {
+    margin: 100px 10px;
+    padding: 100px 300px 200px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 200px;
+    border-radius: 16px;
+
+}
+.invite-place span{
+    color: red;
+}
+.invite-place button{
+    font-size: 16px;
+    color: #FFF;
+    background-color: #F00;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 8px;
 }
