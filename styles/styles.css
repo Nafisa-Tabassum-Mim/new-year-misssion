@@ -154,10 +154,12 @@ main .invitation {
 
 .best-offer {
     background-color: #FFF;
-    height: 220px;
+    height: 400px;
     margin: 100px 10px;
     display: flex;
     gap: 70px;
+    border-radius: 16px;
+
 }
 
 .best-offer-info,
@@ -191,7 +193,7 @@ main .invitation {
     margin-bottom: 5px;
 }
 
-.best-offer-info p {
+.best-offer-info p , .sale-info-p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
@@ -213,9 +215,62 @@ main .invitation {
     font-size: 20px;
     margin-top: 5px;
 }
-.best-offer-year img{
+
+.best-offer-year>img {
     margin-bottom: 0px;
 }
 
 
 /* section 4 */
+
+.sale {
+    background-color: #FFF;
+    height: 815px;
+    margin: 100px 10px;
+    border-radius: 16px;
+}
+
+.sale-info>h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.sale-info>h2 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sale-info span{
+    color: #F00;
+}
+
+.sale-info-p{
+    margin-top: 5px;
+    text-align: center;
+}
+.sale-info{
+    padding: 0px 250px;
+}
+
+section .full-color{
+    margin-top: 0px;
+    padding: 70px ;
+    background-color: #F00;
+    border-radius: 16px 0px 16px 16px;
+    border: none;
+}
+
+.sale .image{
+    margin-top: 50px;
+    text-align: right;
+    height: 433px;
+}
+.image-3{ 
+    height: 300px;
+ }
