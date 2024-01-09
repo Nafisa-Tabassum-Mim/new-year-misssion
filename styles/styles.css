@@ -229,9 +229,9 @@ main .invitation {
 
 /* section 4 */
 
-.sale {
+ section> .sale {
     background-color: #FFF;
-    height: 815px;
+    height: 850px;
     margin: 100px 10px;
     border-radius: 16px;
 }
@@ -266,22 +266,21 @@ main .invitation {
     padding: 0px 250px;
 }
 
-section .full-color {
-    margin-top: 0px;
-    padding: 70px;
-    background-color: #F00;
-    border-radius: 16px 0px 16px 16px;
-    border: none;
-}
-
 .sale .image {
-    margin-top: 50px;
-    text-align: right;
-    height: 433px;
+  display: flex;
+  justify-content: space-between;
 }
-
-.image-3 {
-    height: 300px;
+.image-1{
+    position: absolute;
+}
+.image-2{
+    position: absolute;
+    padding-left: 690px;
+    /* z-index: 1px; */
+}
+.image-3{
+    position: relative;
+    right: -850px;
 }
 
 /* section 5 */
@@ -377,6 +376,10 @@ footer {
 .website-num {
     padding-right: 50px;
 } 
+.website-num  img{
+    float: left;
+    margin-right: 10px;
+}
 .social-media-icon img {
     margin-right: 25px;
 }
