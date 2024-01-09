@@ -362,26 +362,27 @@ footer {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
-    font-weight: 500;
-    height: 500px;
+    height: 350px;
+    padding: 80px 60px 80px 60px;
 }
 
 .website-info , .footer-extra-info {
     display: flex;
     justify-content: space-between;
 }
-
-.website-location {
-    padding: 70px 0px 10px 50px;
+.website-info{
+    margin-bottom: 20px;
 }
 
 .website-num {
-    padding: 70px 90px 10px 0px;
-}
-
+    padding-right: 50px;
+} 
 .social-media-icon img {
     margin-right: 25px;
-    padding: 50px 0;
+}
+.social-media-icon{
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .social-media-icon {
@@ -389,5 +390,8 @@ footer {
     height: 40px;
 }
 .footer-extra-info{
-    margin: 140px 50px;
+    margin-top: 50px;
+}
+hr{
+    border: 1px solid rgba(53, 52, 57, 0.776) ;
 }
